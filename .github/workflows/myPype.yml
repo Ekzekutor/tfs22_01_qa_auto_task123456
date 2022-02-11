@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Check out tests private repo
-      - uses: actions/checkout@master
         with:
           repository: TFS22QA/qa_fullstack_123_tests
           token: ${{ secrets.MY_PAT }}
