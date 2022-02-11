@@ -12,5 +12,5 @@ name: GitHub Classroom Workflow
           uses: actions/checkout@master
           with:
             repository: TFS22QA/qa_fullstack_123_tests
-            token: ${{ secrets.my_pat }}
+            token: ${{ secrets.MY_PAT }}
         - uses: education/autograding@v1
